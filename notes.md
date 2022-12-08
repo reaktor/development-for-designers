@@ -3,6 +3,7 @@
 Git
 - github, gitlab
 - Clone
+- Checkout
 - Commit
 - Push, pull, 
 - Rebase, merge
