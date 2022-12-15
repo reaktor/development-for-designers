@@ -19,6 +19,10 @@ Also,
 - Create a Github account and report your Github username on the Slack channel in this thread
   - You'll get access to our repositories
 - Configure your git to always use rebasing when pulling by running this: `git config --global pull.rebase true`
+- Generate a SSH key on your machine and copy the public key to Github settings
+  - Run `ssh-keygen` on the command-line and just press enter to all the questions
+  - See your public key like this: `cat ~/.ssh/id_rsa.pub`
+  - Copy-paste the public key into Github settings (Settings -> SSH and GPG keys -> New SSH Key)
 
 You can also already clone our repository https://github.com/reaktor/development-for-designers as below
 
