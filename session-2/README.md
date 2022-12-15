@@ -18,7 +18,7 @@ Also,
 
 - Create a Github account and report your Github username on the Slack channel in this thread
   - You'll get access to our repositories
-- Configure your git to always use rebasing when pulling by running this: `git config pull.rebase true`
+- Configure your git to always use rebasing when pulling by running this: `git config --global pull.rebase true`
 
 You can also already clone our repository https://github.com/reaktor/development-for-designers as below
 
