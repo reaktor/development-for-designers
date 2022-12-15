@@ -1,5 +1,11 @@
 We'll get our hands dirty with Git and Web Development and whatnot.
 
+## Goals
+
+- Learn the basics of Git version control system and Github service
+- Get the necessary tools on your own machine, a Github account and some hands-on experience
+- Get your first Pull Request approved and merged!
+
 ## Preparations
 
 There are some things for you to install on your own machine and you can install them before the session if you have a while:
