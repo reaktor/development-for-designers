@@ -67,3 +67,5 @@ Jouni's Git presentation and related discussion
   - in small chunks interactively `git add -p`
  - You can discard local changes using `git checkout .` or more selectively per file `git checkout file.css` or in small chunks using `git checkout -p`
 - To create new branch, you use `git checkout -b new-branch-name`
+
+
