@@ -44,3 +44,26 @@ You can also already clone our repository https://github.com/reaktor/development
 - Assignment 2
   - Write instructions for this whole procedure into a new text file
   - Create a pull request for that as well, as above!
+
+## Notes
+
+Discussion at the start of the session
+
+- The Repository exists both on Github "remote" as well as locally. You usually start by cloning a repository to your own machine from Github
+- Conflict occurs when multiple people have made changes to the same place in the same file. Conflicts must be manually resolved. Changes that are not touching the same place in the same file are handled automatically by Git.
+- Dropbox is partly similar, as it syncs files between your machine and a remote server. The main difference is that with Git, the sync from your local repository to the remote one is not automatic - you'll need to commit and push explicitly.
+- Runtime environments have names such as Dev, Testing, Staging, QA, Production. It depends on the client, what each of these environments are used for. Often the Staging or QA environment is the closest to production, with production-like data. Sometimes a new Dev environment is even created for each Pull Request automatically so that each change can be tested in separation. Generally, test environments are useful to avoid the "works on my machine" problem as well as being able to share results for demonstration and verification purposes
+
+Jouni's Git presentation and related discussion
+
+- What are the stages in making your first Pull Request?
+ - Simple case, when operating without branches: `add` your changes to the staging area, `commit` them with a suitable message, `pull --rebase` changes from other devs, `push` to the remote repo
+ - At very start, you'll need to `clone` the repository on your own machine of course
+ - If the codebase is the Recipe, then a Commit is a "change suggestion" to the recipe. You `add` your suggested changes to the suggestion (the staging area) and after you've selected what changes will be included you `commit`. After that you have a new Commit in your local repository
+ - The staging area can also be thought of as a Shopping Cart for the changes you want to include in your commit
+ - You can add your changes to the staging area 
+  - all at once by `git add .`
+  - per file `git add file.css`
+  - in small chunks interactively `git add -p`
+ - You can discard local changes using `git checkout .` or more selectively per file `git checkout file.css` or in small chunks using `git checkout -p`
+- To create new branch, you use `git checkout -b new-branch-name`
