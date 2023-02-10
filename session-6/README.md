@@ -1,3 +1,11 @@
+## Topic covered
+
+Reviewed our repository and organized contents via a few pull requests.
+
+All HTML pages are now named `index.html` under a folder, so that they can be easily linked to. For example https://reaktor.github.io/development-for-designers/, https://reaktor.github.io/development-for-designers/annaheiniPage/, https://reaktor.github.io/development-for-designers/nova/, https://reaktor.github.io/development-for-designers/riikkas-homepage/ https://reaktor.github.io/development-for-designers/cow-selector/, https://reaktor.github.io/development-for-designers/Tanjas-homepage/, https://reaktor.github.io/development-for-designers/tiinas-homepage/.
+
+## Mad tips
+
 Checks out previous branch, nice for switching between two branches:
 
     git checkout -
