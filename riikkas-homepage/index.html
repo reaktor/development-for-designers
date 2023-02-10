@@ -3,6 +3,7 @@
 
 <head>
     <title>Riikka's Accessibility Tips</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -23,11 +24,9 @@
         <input id="firstName">
         <p>And the HTML code looks like this:</p>
         <pre>
-        <code>
-            &lt;label for="firstName"&gt;First name&lt;/label&gt;
-            &lt;input id="firstName"&gt;
-        </code>
-    </pre>
+<code>&lt;label for="firstName"&gt;First name&lt;/label&gt;
+&lt;input id="firstName"&gt;</code> 
+        </pre>
         <p>As you can see, the <code>for</code> attribute of the label element is equal to the <code>id</code> attribute
             of the input element. This is how they are bound together! Thus, screen readers know to read the label out
             loud when the text field is in focus. Also when you click on the label, it focuses on the text field. Try
