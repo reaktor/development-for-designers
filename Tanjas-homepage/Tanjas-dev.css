@@ -6,8 +6,8 @@ body {
     height: 2000px;
 }
 
-.lightgray-bg {
-    background: rgb(184, 56, 56);
+.lightpurple-bg {
+    background: rgb(233, 223, 240);
 }
 
 img {
@@ -17,5 +17,5 @@ img {
 
 header {
     height: 100px;
-    background-color: blueviolet;
+    background-color: rgb(233, 223, 240);
 }
