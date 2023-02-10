@@ -1,0 +1,21 @@
+body {
+    background-image: url(image/fluffy-cinnamon-rolls-18.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 2000px;
+}
+
+.lightgray-bg {
+    background: rgb(184, 56, 56);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    height: 100px;
+    background-color: blueviolet;
+}
