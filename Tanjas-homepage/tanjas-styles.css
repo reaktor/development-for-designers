@@ -1,0 +1,54 @@
+html {
+    font-family: 'Prata', serif;
+    font-family: 'Varela', sans-serif;
+}
+
+body {
+    background-image: url(images/fluffy-cinnamon-rolls-18.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 2000px;
+    text-align: center;
+    font-family: 'Prata', serif;
+
+}
+
+
+
+.lightpurple-bg {
+    background: rgb(233, 223, 240);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    height: auto;
+    background-color: rgb(233, 223, 240);
+}
+
+.nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: 'Varela', sans-serif;
+
+
+}
+
+.nav li {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
