@@ -1,4 +1,5 @@
 import Navi from "../components/Navi";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <main>
         <p>Git is like riding in a limo.</p>
       </main>
+      <Footer />
     </>
   );
 }
