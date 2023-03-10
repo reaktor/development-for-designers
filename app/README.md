@@ -8,13 +8,25 @@ This directory was created by `yarn create next-app`, then cleaned up and simpli
 
 You'll need Node and Yarn.
 
+- Install Node.js from https://nodejs.org/en/download/
+- Then install yarn on the command line `npm install -g yarn`. If you get an error, you may try `sudo npm install -g yarn`
+
 ## Getting Started
 
-First, run the development server:
+Open Terminal, navigate to the app directory and install dependencies:
+
+```bash
+cd app
+yarn
+```
+
+Now, run the development server:
 
 ```bash
 yarn dev
 ```
+
+You can press Ctrl-C to exit the server.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
