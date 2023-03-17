@@ -1,4 +1,4 @@
-#Logo {
+.Logo {
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: purple;
@@ -7,7 +7,7 @@
     letter-spacing: 1px;
 }
 
-#Logo a {
+.Logo a {
     color: purple;
     text-decoration: none;
 }
