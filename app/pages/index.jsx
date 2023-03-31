@@ -1,7 +1,7 @@
 import Navi from "../components/Navi";
 import Logo from "../components/Logo";
 import Footer from "../components/Footer";
-import Button from "../components/Button";
+import BunButton from "../components/BunButton";
 
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       </header>
       <main>
         <p>Development is like baking buns.</p>
-        <Button />
+        <BunButton />
       </main>
       <Footer />
     </>
