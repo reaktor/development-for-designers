@@ -11,6 +11,9 @@ export default function Navi() {
         <li>
           <a>About</a>
         </li>
+        <li>
+          <a href="/mypage">My page</a>
+        </li>
       </ul>
     </nav>
   );
