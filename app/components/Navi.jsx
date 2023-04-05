@@ -14,6 +14,9 @@ export default function Navi() {
         <li>
           <a href="/mypage">My page</a>
         </li>
+        <li>
+          <a href="/tanjaspage">Tanja's page</a>
+        </li>
       </ul>
     </nav>
   );
