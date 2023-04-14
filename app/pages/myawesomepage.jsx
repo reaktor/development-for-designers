@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import image from "./final_koira.jpeg";
 import Logo from "../components/Logo";
 
@@ -30,7 +31,11 @@ export default function MyAwesomePage() {
         <br />
         <br />
         <br />
-        <img src={image} />
+        <Image
+          src={image}
+          width={500}
+          height={500}
+        />
         <marquee behavior="alternate" direction="right">
           Hello
         </marquee>
