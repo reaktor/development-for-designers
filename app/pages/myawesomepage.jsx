@@ -1,5 +1,5 @@
 import image from "./final_koira.jpeg";
-import { Logo } from "../components/Logo";
+import Logo from "../components/Logo";
 
 export default function MyAwesomePage() {
   let a = undefined;
