@@ -1,4 +1,4 @@
-import styles from './ImageCard.module.css';
+import Image from 'next/image'
 import image from "../images/how-to-close-vim.jpg";
 
 /* I would like to get values for cardpic and cardtext in the file where they are used (in this case git.jsx), but I didn't
@@ -10,8 +10,10 @@ export default function ImageCard() {
     return (
         <>
             <div>
-                <div>className={styles.ImageCard} </div>
-                <img src={cardpic} alt="How to close vim" />
+                <Image src={cardpic}
+                    alt="How to close vim"
+                    width={500}
+                    height={500}/>
                 <p>{cardtext}</p>
             </div>
         </>
