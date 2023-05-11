@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 
 export default function Kela() {
     const [name, setName] = useState(undefined);
+    const [kelaName, setKelaName] = useState(undefined);
 
     function generateKelaName() {
-        if (name) {
-            return <p>your anssi kela name is {name} Kela</p>;
+        if (kelaName) {
+            return <p>your anssi kela name is {kelaName} Kela</p>;
         }
     }
 
@@ -20,7 +21,7 @@ export default function Kela() {
                     setName(event.target.value);
                 }}
             />
-            <button onClick={() => setName(name)}>
+            <button onClick={() => setKelaName(name)}>
                 generate
             </button>
             <br />
